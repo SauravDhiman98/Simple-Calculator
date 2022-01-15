@@ -1,0 +1,144 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(background.jpg);
+    font-family: 'Merienda One', cursive; 
+    color: aliceblue;
+ 
+}
+
+
+ #container{
+    width: 1000px;
+    height: 550px;
+    background-size: cover;
+    margin: auto;
+    
+    
+ }
+
+ /* For Calcultor Styling */
+
+#calculator{
+    width:400px;
+    height: 600px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    top: 15px;
+    box-shadow: 1px 1px 3px 4px black;
+}
+
+.operators{
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 750;
+}
+
+.num{
+    font-weight: 700;
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+.empty{
+   
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 10px;
+    background-color: black;
+    /* background-image: linear-gradient(rgba(122, 126, 116, .5), rgba(122, 126, 116, .1), rgba(122, 126, 116, .5)); */
+}
+
+.result {
+    height: 150px;
+    
+    }
+
+.buttons{
+    border-radius: 20px;
+    height: 400px;
+    margin-top: 20px;
+    
+    /* background-image: linear-gradient(rgba(122, 126, 116, .5), rgba(122, 126, 116, .1), rgba(122, 126, 116, .5)); */
+}
+
+
+#history-value{
+    text-align: right;
+    color: blue;
+    font-size: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    opacity: 1;
+
+}
+
+#output-value{
+    text-align: right;
+    color: blue;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    height: 60px;
+    margin: 10px 20px;
+    opacity: 1;
+}
+.operators , .num {
+    cursor: pointer;
+}
+
+.operators:active, .num:active{
+    font-size: 10px;
+}
+
+
+#backspace{
+    /* font-size: 20px; */
+    font-weight: 800;
+    background-color: darkgray;
+}
+
+#clear{
+    font-weight: 800;
+    background-color: darkgray;
+}
+
+#Percentile{
+    font-weight: 800;
+    background-color: darkgray;
+}
+#add{
+    color: aliceblue;
+    font-weight: 700;
+    background-color: green;
+}
+
+#minus{
+    background-color: red;
+    color: aliceblue;
+}
+
+#multiply{
+    background-color:darkgoldenrod;
+    color: aliceblue;
+}
+
+#division{
+    background-color: blue;
+    color: aliceblue;
+}
